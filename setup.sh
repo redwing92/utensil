@@ -19,3 +19,7 @@ cp .zshrc ~/.zshrc
 
 # Setup Vim config
 cp .vimrc ~/.vimrc
+
+# Setup tmux config
+cp .tmux.conf ~/.tmux.conf
+
