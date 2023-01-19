@@ -107,6 +107,7 @@ source $ZSH/oh-my-zsh.sh
  alias cat="ccat"
  alias qemu="qemu-system-arm"
  alias oldpwd="echo $OLDPWD"
+ alias redwing="$HOME/.redwing/redwing/target/debug/redwing"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #alias tagsall = "find . -type f -iname *.[ch] | etags -"
 echo "export JAVA_HOME=`/usr/libexec/java_home`" >> ~/.profile    
