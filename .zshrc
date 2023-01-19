@@ -106,6 +106,7 @@ source $ZSH/oh-my-zsh.sh
  alias zshconfig="vim ~/.zshrc"
  alias cat="ccat"
  alias qemu="qemu-system-arm"
+ alias oldpwd="echo $OLDPWD"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #alias tagsall = "find . -type f -iname *.[ch] | etags -"
 echo "export JAVA_HOME=`/usr/libexec/java_home`" >> ~/.profile    
@@ -113,4 +114,6 @@ echo "export JAVA_HOME=`/usr/libexec/java_home`" >> ~/.profile
 
 export M2_Home=/Users/gyucheonheo/Downloads/apache-maven-3.6.3
 export PATH=$PATH:$M2_HOME/bin
+
+
 
