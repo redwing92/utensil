@@ -36,7 +36,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 filetype plugin on
-colorscheme default
+colorscheme dracula
 syntax on
 set number
 set ts=4 sw=4
