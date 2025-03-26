@@ -1,0 +1,91 @@
+{
+ "redhat.telemetry.enabled": false,
+ "java.configuration.runtimes": [
+  {
+   "name": "JavaSE-17",
+   "path": "/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home",
+   "default": true
+  }
+ ],
+ "editor.minimap.enabled": false,
+ "window.zoomLevel": 1,
+ "github.copilot.advanced": {},
+ "github.copilot.editor.enableAutoCompletions": true,
+ "prettier.embeddedLanguageFormatting": "off",
+ "workbench.settings.applyToAllProfiles": ["prettier.tabWidth"],
+ "prettier.tabWidth": 1,
+ "[typescript]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+ },
+ "[xml]": {
+  "editor.defaultFormatter": "fabianlauer.vs-code-xml-format"
+ },
+ "[html]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+ },
+ "[scss]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+ },
+ "editor.tabSize": 2,
+ "[json]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+ },
+ "[java]": {
+  "editor.defaultFormatter": "redhat.java"
+ },
+ "[javascript]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+ },
+ "totalTypeScript.hiddenTips": [
+  "basic-types",
+  "optional-object-property",
+  "interface-declaration",
+  "union-type",
+  "array-type",
+  "ts-object-type",
+  "passing-generics-to-types",
+  "interface-with-generics",
+  "type-alias-declaration",
+  "variable-type-annotation",
+  "typing-function-parameters"
+ ],
+ "totalTypeScript.hideAllTips": false,
+ "totalTypeScript.hideBasicTips": false,
+ "solidity.telemetry": false,
+ "[solidity]": {
+  "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+ },
+ "[javascriptreact]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+ },
+ "[typescriptreact]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+ },
+"workbench.colorTheme": "Dracula Theme",
+"github.copilot.enable": {
+  "*": false,
+  "plaintext": false,
+  "markdown": false,
+  "scminput": false
+},
+"vim.vimrc.path": "$HOME/.vimrc",
+"vim.commandLineModeKeyBindings": [
+
+],
+"vim.insertModeKeyBindings": [
+  {
+    "before": ["j", "j"],
+    "after": ["<Esc>"]
+  }
+],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [">"],
+      "after": [">", "g", "v"]
+    },
+    {
+      "before": ["<"],
+      "after": ["<", "g", "v"]
+    }
+  ]
+}
