@@ -9,6 +9,13 @@ inoremap jj <ESC>
 vnoremap > >gv
 vnoremap < <gv
 
+" Let the mapleader be the spacebar instead of the shift.
+" The shift hurts my left pinky so bad
+let mapleader = " "
+nnoremap <Leader>v V
+nnoremap <Leader>g G
+nnoremap <Leader>a A
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
