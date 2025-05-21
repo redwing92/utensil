@@ -1,2 +1,5 @@
 [alias]
   push-current = push origin HEAD
+  log-graph = log --oneline --graph
+
+git config --global pull.rebase true
